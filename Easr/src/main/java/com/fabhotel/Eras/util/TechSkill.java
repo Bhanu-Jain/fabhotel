@@ -6,6 +6,6 @@ public enum TechSkill {
     JAVA,
     SPRING_BOOT,
     JS,
-    NODEJS
+    NODEJS, SKILLNOTMATCH
 
 }

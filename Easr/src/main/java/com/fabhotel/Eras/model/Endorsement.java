@@ -11,12 +11,14 @@ import lombok.Data;
 @Entity
 @Data
 public class Endorsement {
+	
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private double score;
 	private double adjustedScore; 
 	private String comment;
+	private String skillName;
 	@ManyToOne
 	@JoinColumn(name="reviewer_id")
 	private User reviewer;

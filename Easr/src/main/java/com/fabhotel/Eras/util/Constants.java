@@ -16,5 +16,11 @@ public class Constants {
 	public static final int BRODER_SKILL_MATCH=5;
 	public static final int SUB_SKILL_SAME_BRODER_MATCH=3;
 	public static final int SKILL_MISMATCH=1;
+	public static final Object ADDFORSKILLTEXT = " An additional score is added for their shared skill proficiency.";
+	public static final Object ADDFORCOWORKTEXT = "users are coworkers from the same company, an additional bonus is applied";
+	public static final Object NOTACOWORKER = "Not a coworker, no bonus applied";
+	public static final Object SAMEFIELDBONUSTEXT = "Additional score is awarded due to their shared professional field";
+	public static final Object ADDEXPBONUSTEXT = " An extra score is granted due to one Reviewer greater experience in the shared professional field.";
+	public static final Object NOTFORSAMEFIELDTEXT = "No bonus as field is not same";
 
 }

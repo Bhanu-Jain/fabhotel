@@ -3,6 +3,8 @@ package com.fabhotel.Eras.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.validation.constraints.NotBlank;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -19,7 +21,7 @@ public class Skill {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-
+	@NotBlank
     private String name;
 
     @ManyToOne
